@@ -1,10 +1,10 @@
-@import "_layout.css";
-@import "_header.css";
-@import "_main.css";
-@import "_footer.css";
-@import "_typography.css";
-@import "_form.css";
-@import "_post.css";
+@import "layout.css";
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+@import "typography.css";
+@import "form.css";
+@import "post.css";
 
 :root {
     --accent-color: #FF511B;
