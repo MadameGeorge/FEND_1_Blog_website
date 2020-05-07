@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link type="stylesheet" href="css/style.css">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/8af2159dc6.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
         <meta charset="Utf-8">
         <meta name="title" content="Magda Powalisz – Personal blog website">
         <meta name="description" content="A story of my life"/>
@@ -9,39 +11,51 @@
         <title>Magda Powalisz – My personal blog website</title>
     </head>
 
-    <body>
-
+    <body class="grid-home">
         <header>
-            <nav>
-                <a href="index.html">
-                    <h1>Magda Powalisz <span>Blog</span></h1>
+            <nav class="nav-home">
+                <a class="logo" href="index.html">
+                    Magda Powalisz <span>Blog</span>
                 </a>
             </nav>
+            <section class="banner-top">
+                <h1>A very personal <strong>blog about life </strong>and such</h1>
+            </section>
         </header>
 
         <main>
-            <section class="blog-posts">
-                <div class="blog-post"></div>
-                <div class="blog-post"></div>
-                <div class="blog-post"></div>
-                <div class="blog-post"></div>
-            </section>
-            <section class="about-me">
-
+            <section class="blog-posts"> 
+                <h2>Recent posts</h2>
+                <card class="blog-post">
+                    <img class="thumbnail" src="images/leio-mclaren-leiomclaren-FwdZYz0yc9g-unsplash.jpg" alt="A plane in the sky. Photo by Leio McLaren on Unsplash">
+                    <h3>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum</h3>
+                    <a href="blog-post.html">Read more</a>
+                </card>
+                <card class="blog-post">
+                    <img class="thumbnail" src="images/erik-mclean--rs2y0wRmgs-unsplash.jpg" alt="Photo by Erik Mclean on Unsplash">
+                    <h3>Curabitur blandit tempus porttitor</h3>
+                    <a href="blog-post.html">Read more</a>
+                </card>
+                <card class="blog-post">
+                    <img class="thumbnail" src="images/danis-lou-hvgoPVEljrY-unsplash.jpg" alt="Photo by Danis Lou on Unsplash">
+                    <h3>Cras justo odio, dapibus ac facilisis in, egestas eget quam</h3>
+                    <a href="blog-post.html">Read more</a>
+                </card>
+                <card class="blog-post">
+                    <img class="thumbnail" src="images/hugo-d-BsQcxZFGREY-unsplash.jpg" alt="Photo by Hugo D. on Unsplash">
+                    <h3>Cras mattis consectetur purus sit amet fermentum</h3>
+                    <a href="blog-post.html">Read more</a>
+                </card>
             </section>
         </main>
 
         <footer class="footer-wrapper">
-
+            <p>Follow me</p>
             <div class="footer-social-media">
-
+                <a href="https://www.linkedin.com/in/magdalenapowalisz"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/MadameGeorge"><i class="fab fa-github"></i></a>
+                <a href="https://www.behance.net/madame_george/projects"><i class="fab fa-behance"></i></a>
             </div>
-
-            <div class="footer-nav">
-
-            </div>
-
         </footer>
-
     </body>
 </html>

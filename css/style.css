@@ -1,4 +1,31 @@
+@import "_layout.css";
 @import "_header.css";
 @import "_main.css";
 @import "_footer.css";
+@import "_typography.css";
+@import "_form.css";
+@import "_post.css";
 
+:root {
+    --accent-color: #FF511B;
+    --accent-hover-color: #FF6E30;
+    --bg-color: #D5DADB;
+    --text-color: #181818;
+    --line: 3px;
+    --padding: 24px;
+    --margin: 48px;
+    --border: solid var(--line) var(--text-color);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+body {
+    margin: auto 0;
+}

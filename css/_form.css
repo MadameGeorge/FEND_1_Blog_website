@@ -1,0 +1,53 @@
+form {
+    display: flex;
+    flex-direction: column;
+    border: var(--border);
+    padding: var(--padding);
+    justify-content: center;
+}
+
+form h4 {
+    margin-top: 0;
+}
+
+input,
+label,
+button {
+    flex: 1 1 100%;
+}
+
+legend,
+input {
+    margin-bottom: 10px;
+}
+
+input,
+button {
+    padding: 10px;
+}
+
+input {
+    border: 0;
+}
+
+input:focus {
+    border: solid 1px var(--accent-color);
+}
+
+button {
+    background-color: var(--accent-color);
+    border: 0;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: var(--accent-hover-color);
+    transition: color 150ms ease-in;
+}
+
+@media screen and (min-width: 600px) {
+    form {
+        padding: 20%;
+    }
+} 
