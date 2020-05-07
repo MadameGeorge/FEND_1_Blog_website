@@ -52,7 +52,7 @@ article h1 {
 
 .blog-posts-more a, nav a {
     padding: var(--padding);
-    border: solid 3px var(--accent-color);
+    border: solid 3px var(--accent-hover-color);
     text-decoration: none;
 }
 

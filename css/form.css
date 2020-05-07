@@ -35,14 +35,14 @@ input:focus {
 }
 
 button {
-    background-color: var(--accent-color);
+    background-color: var(--accent-hover-color);
     border: 0;
     font-size: 1.1em;
     font-weight: 600;
 }
 
 button:hover {
-    background-color: var(--accent-hover-color);
+    background-color: var(--accent-color);
     transition: color 150ms ease-in;
 }
 

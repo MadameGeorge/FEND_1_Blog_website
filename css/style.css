@@ -7,8 +7,8 @@
 @import "post.css";
 
 :root {
-    --accent-color: #FF511B;
-    --accent-hover-color: #FF6E30;
+    --accent-color: #B32A00;
+    --accent-hover-color: #FF511B;
     --bg-color: #D5DADB;
     --text-color: #181818;
     --line: 3px;

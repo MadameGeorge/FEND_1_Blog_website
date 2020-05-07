@@ -54,7 +54,7 @@ blockquote {
 }
 
 blockquote:before {
-  color: var(--accent-color);
+  color: var(--accent-hover-color);
   content: open-quote;
   font-size: 3em;
   line-height: 0.1em;
@@ -63,7 +63,7 @@ blockquote:before {
 }
 
 blockquote:after {
-    color: var(--accent-color);
+    color: var(--accent-hover-color);
     content: close-quote;
     font-size: 3em;
     line-height: 0.1em;

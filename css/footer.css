@@ -1,6 +1,6 @@
 footer {
     padding: var(--padding) 0;
-    background-color: var(--accent-color);
+    background-color: var(--accent-hover-color);
     text-align: center;    
 }
 
